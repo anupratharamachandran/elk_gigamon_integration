@@ -30,10 +30,10 @@ policy_templates:
         title: Collect json data via HTTP Endpoint
         description: Collect json data via HTTP Endpoint
         vars:
-           - name: listen_address
-             type: text
-             title: Listen Address
-             description: The bind address to listen for http endpoint connections. Set to '0.0.0.0' to bind to all available interfaces.
+          - name: listen_address
+            type: text
+            title: Listen Address
+            description: The bind address to listen for http endpoint connections. Set to '0.0.0.0' to bind to all available interfaces.
 owner:
   github: elastic/security-service-integrations
   type: elastic
